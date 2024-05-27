@@ -1,0 +1,54 @@
+@mixin headerh1 {
+font-family: "Roboto";
+font-size: 11px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: $chemiferi1;
+}
+
+@mixin dolore {
+color: #FFF;
+font-family: "Roboto";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@mixin youcansee {
+color: #8A8787;
+font-family: "Roboto";
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@mixin myh1 {
+color: #000;
+font-family: "Roboto";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+  
+
+@mixin Dolore {
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    @mixin atag {
+        color: #818687;
+        font-family: "Roboto";
+        font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }

@@ -1,0 +1,350 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F1F1F1;
+}
+
+header div {
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: bottom;
+}
+header h1 {
+  margin-left: 134px;
+  margin-right: 35px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+}
+header h2 {
+  margin-right: 35px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+}
+
+.h1 {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 42px;
+  margin-left: 134px;
+}
+
+.s1 {
+  margin-top: 27px;
+  margin-left: 140px;
+  width: 1200px;
+  height: 360px;
+}
+
+section .cardbox1 {
+  width: 362px;
+  height: 357px;
+  background: #FFF;
+  border-radius: 0px 0px 5px 5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+section .cardbox1 .h3 {
+  display: inline-block;
+  margin-left: 11px;
+  margin-top: 10px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox1 .clock {
+  margin-left: 37px;
+  margin-top: 11px;
+}
+section .cardbox1 h2 {
+  margin-left: 37px;
+  margin-top: 68px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox1 h1 {
+  position: absolute;
+  margin-top: -155px;
+  margin-left: 42px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox1 .relative {
+  position: relative;
+  width: 362px;
+  height: 186px;
+}
+section .cardbox1 .relative img {
+  width: 362px;
+  height: 186px;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+}
+section .cardbox2 {
+  width: 362px;
+  height: 357px;
+  background: #FFF;
+  border-radius: 0px 0px 5px 5px;
+  display: inline-block;
+  margin-right: 40px;
+}
+section .cardbox2 .h3 {
+  display: inline-block;
+  margin-left: 11px;
+  margin-top: 10px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox2 .clock {
+  margin-left: 37px;
+  margin-top: 11px;
+}
+section .cardbox2 h2 {
+  margin-left: 37px;
+  margin-top: 68px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox2 h1 {
+  position: absolute;
+  margin-top: -152px;
+  margin-left: 40px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox2 .relative img {
+  width: 362px;
+  height: 186px;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+}
+section .cardbox3 {
+  width: 362px;
+  height: 357px;
+  background: #FFF;
+  border-radius: 0px 0px 5px 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+section .cardbox3 .h3 {
+  display: inline-block;
+  margin-left: 11px;
+  margin-top: 10px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox3 .clock {
+  margin-left: 37px;
+  margin-top: 11px;
+}
+section .cardbox3 h2 {
+  margin-left: 37px;
+  margin-top: 68px;
+  color: #8A8787;
+  font-family: "Roboto";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox3 h1 {
+  position: absolute;
+  margin-top: -152px;
+  margin-left: 40px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .cardbox3 .relative img {
+  width: 362px;
+  height: 186px;
+  flex-shrink: 0;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.myh1 {
+  margin-top: 57px;
+  margin-left: 140px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.container {
+  height: 902px;
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: 138px;
+}
+.container .morbi {
+  width: 758px;
+  height: 430px;
+  position: relative;
+  margin-bottom: 42px;
+  display: flex;
+}
+.container .morbi img {
+  border-radius: 5px;
+}
+.container h1 {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: -269px;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .containerdiv {
+  width: 362px;
+  height: 1165px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -430px;
+  margin-left: 40px;
+}
+.container .containerdiv img {
+  margin-bottom: 100px;
+}
+
+footer {
+  width: 1519px;
+  height: 201px;
+  background: #243043;
+  margin-top: 36px;
+}
+footer .atags {
+  width: 500px;
+  margin-left: 137px;
+}
+footer .atags a {
+  margin-left: 96px;
+  color: #818687;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer h1 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 712px;
+  margin-top: 0px;
+}
+footer img {
+  margin-left: 1380px;
+}/*# sourceMappingURL=global.css.map */

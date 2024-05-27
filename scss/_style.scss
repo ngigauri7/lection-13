@@ -1,0 +1,276 @@
+body {
+    background: #F1F1F1;;
+}
+
+header {
+
+
+    div {
+        display: inline-block;
+        margin-top:10px;
+        vertical-align: bottom;
+    }
+    
+    h1 {
+        margin-left: 134px;
+        margin-right: 35px;
+        display: inline-block;
+        
+        @include headerh1
+    }
+
+    h2 {
+        margin-right: 35px;
+        display: inline-block;
+        @include headerh1
+        
+    }
+}
+
+.h1 {
+color: #000;
+font-family: "Roboto";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 42px;
+
+margin-left: 134px;
+}
+
+.s1 {
+    margin-top: 27px;
+    margin-left: 140px;
+    width: 1200px;
+    height: 360px;
+}
+
+
+section {
+
+    .cardbox1 {
+        width: 362px;
+        height: 357px;
+        background: #FFF;
+        border-radius: 0px 0px 5px 5px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 40px ;
+
+        .h3 {
+            display: inline-block;
+            margin-left: 11px;
+            margin-top: 10px;
+            @include youcansee 
+        }
+
+        .clock {
+            margin-left: 37px;
+            margin-top: 11px; ;
+        }
+
+        h2 {
+            margin-left: 37px;
+            margin-top: 68px;
+            @include youcansee 
+        }
+
+        h1 {
+            position: absolute;
+            margin-top: -155px;
+            margin-left: 42px;
+            @include dolore
+        }
+
+        .relative {
+            position: relative;
+            width: 362px;
+            height: 186px;
+
+            img {
+                width: 362px;
+                height: 186px;
+                flex-shrink: 0;
+                border-radius: 5px 5px 0px 0px;
+            }
+
+            
+        }
+    }
+
+
+    .cardbox2 {
+        width: 362px;
+        height: 357px;
+        background: #FFF;
+        border-radius: 0px 0px 5px 5px;
+        display: inline-block;
+        margin-right:  40px;
+
+        .h3 {
+            display: inline-block;
+            margin-left: 11px;
+            margin-top: 10px;
+            @include youcansee 
+        }
+
+        .clock {
+            margin-left: 37px;
+            margin-top: 11px; ;
+        }
+
+        h2 {
+            margin-left: 37px;
+            margin-top: 68px;
+            @include youcansee 
+        }
+
+        h1 {
+            position: absolute;
+            margin-top: -152px;
+            margin-left: 40px;
+            @include dolore
+        }
+
+        .relative {
+            
+            img {
+                width: 362px;
+                height: 186px;
+                flex-shrink: 0;
+                border-radius: 5px 5px 0px 0px;
+            }
+        }
+    }
+
+
+    .cardbox3 {
+        width: 362px;
+        height: 357px;
+        background: #FFF;
+        border-radius: 0px 0px 5px 5px;
+        display: inline-block;
+        vertical-align: top;
+
+        .h3 {
+            display: inline-block;
+            margin-left: 11px;
+            margin-top: 10px;
+            @include youcansee 
+
+        }
+
+        .clock {
+            margin-left: 37px;
+            margin-top: 11px; 
+            
+        
+        }
+
+        h2 {
+            margin-left: 37px;
+            margin-top: 68px;
+            @include youcansee 
+        }
+
+        h1 {
+            position: absolute;
+            margin-top: -152px;
+            margin-left: 40px;
+            @include dolore
+        }
+
+        .relative {
+            
+            img {
+                width: 362px;
+                height: 186px;
+                flex-shrink: 0;
+                border-radius: 5px 5px 0px 0px;
+            }
+        }
+    }
+    
+
+}
+
+.myh1 {
+    margin-top: 57px;
+    margin-left: 140px;
+    @include myh1
+    
+}
+
+.container {
+    height: 902px;
+    width: 1200px ;
+    margin-top: 30px;
+    margin-left: 138px ;
+    
+    .morbi {
+        width:758px;
+        height: 430px;
+        position: relative;
+        margin-bottom: 42px;
+        display: flex;
+
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    h1 {
+        position: absolute;
+        margin-left: 280px;
+        margin-top: -269px;
+       @include dolore
+       
+    }
+
+   .containerdiv {
+    width: 362px;
+    height: 1165px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -430px;
+    margin-left: 40px;
+    img {
+        margin-bottom: 100px;
+    }
+   }
+}
+
+footer {
+    width: 1519px;
+    height: 201px;
+    background: #243043;
+    margin-top:36px;
+
+    .atags {
+        width: 500px;
+        margin-left: 137px;
+        
+
+        a {
+            margin-left: 96px;
+            @include atag
+            
+        }
+    }
+
+    h1 {
+        color: #FFF;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 712px;
+margin-top: 0px;
+    }
+
+    img {
+        margin-left: 1380px;
+    }
+}
